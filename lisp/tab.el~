@@ -1,0 +1,13 @@
+(package-install `vertico)
+(vertico-mode t)
+
+(package-install `orderless)
+(setq completion-styles `(orderless))
+
+(package-install `marginalia)
+(marginalia-mode t)
+
+(package-install `embark)
+(global-set-key (kbd "C-;") `embark-act)
+(setq prefix-help-command `embark-prefix-help-command)
+

@@ -14,7 +14,6 @@
 ;;modeline上显示我的所有的按键和执行的命令
 
 
-
 (package-initialize)
 (setq use-package-always-ensure t)
 (unless (package-installed-p 'use-package)
@@ -23,55 +22,10 @@
 (eval-when-compile (require 'use-package))
 
 
-;; vertical auto complete
-(package-install `vertico)
-(vertico-mode t)
-
-(package-install `orderless)
-(setq completion-styles `(orderless))
-
-(package-install `marginalia)
-(marginalia-mode t)
-
-(package-install `embark)
-(global-set-key (kbd "C-;") `embark-act)
-(setq prefix-help-command `embark-prefix-help-command)
 
 
-(column-number-mode 1)
-(help)
-(blink-cursor-mode 1)
-(electric-pair-mode 1)
-(toggle-frame-maximized)
-
-;; set highlighting brackets
-(show-paren-mode 1)
-(setq show-paren-style 'parenthesis)
-
-;; for isearch-forward, make these equivalent: space newline tab hyphen underscore
-(electric-indent-mode 1)
-
-(set-default 'tab-always-indent 'complete)
-
-
-;; no mixed tab space
-(setq-default indent-tabs-mode nil)
-                                        ; gnu emacs 23.1, 24.4.1 default is t
-
-;; 4 is more popular than 8.
-(setq-default tab-width 4)
-
-(setq mouse-highlight nil)
-(setq cursor-type `(bar, 5))
-(setq line-move-visual t)
-
-
-;; (global-tab-line-mode)
-
-;;Exit insert mode by pressing j and then j quickly
 
 ;; c indent
-(setq-default c-basic-offset 4)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -89,7 +43,5 @@
  )
 
 
-(load-theme `zenburn t)
 
-(evil-set-initial-state 'dired-mode 'emacs)
-(setq lisp-indent-offset 4)
+

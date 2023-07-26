@@ -1,0 +1,15 @@
+;; vertical auto complete
+(global-hl-line-mode 1)
+
+
+(column-number-mode 1)
+(blink-cursor-mode 1)
+(electric-pair-mode 1)
+(toggle-frame-maximized)
+
+;; set highlighting brackets
+(show-paren-mode 1)
+(setq show-paren-style 'parenthesis)
+
+;; for isearch-forward, make these equivalent: space newline tab hyphen underscore
+(electric-indent-mode 1)
