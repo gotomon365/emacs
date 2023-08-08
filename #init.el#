@@ -1,7 +1,5 @@
-;; about the directroy
-(add-to-list 'load-path "~/.emacs.d/lisp/")
-(setq backup-directory-alist `(("." . "~/.saves")))
 
+(add-to-list 'load-path "~/.emacs.d/lisp/")
 (require 'init-evil)
 (require 'init-theme)
 (require 'init-custom)
@@ -39,7 +37,7 @@
  '(custom-safe-themes
       '("bc7d4cfb6d4bd7074a39f97f0b8a057c5b651c403950bbbc4ad35a609ad6268a" default))
  '(package-selected-packages
-      '(evil-multiedit iedit embark marginalia orderless vertico keycast zenburn-theme timu-caribbean-theme evil))
+      '(embark marginalia orderless vertico keycast zenburn-theme timu-caribbean-theme evil))
  '(warning-suppress-log-types
       '(((package reinitialization))
            ((package reinitialization))
