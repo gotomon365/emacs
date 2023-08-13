@@ -6,6 +6,7 @@
 (require 'init-theme)
 (require 'init-custom)
 (require 'init-tab)
+(require 'init-python)
 
 (require 'package)
 (setq package-archives
