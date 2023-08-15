@@ -1,4 +1,4 @@
-;;; evil-multiedit-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
+;;; evil-multiedit-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
 
@@ -42,7 +42,7 @@ Jump to the previous multiedit region." t nil)
 Clear all multiedit regions, clean up and revert to normal state." t nil)
  (autoload 'evil-multiedit-ex-match "evil-multiedit" nil t)
 
-(register-definition-prefixes "evil-multiedit" '("er/prepare-for-more-expansions-internal" "evil-multiedit-"))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "evil-multiedit" '("er/prepare-for-more-expansions-internal" "evil-multiedit-")))
 
 ;;;***
 
