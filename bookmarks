@@ -4,9 +4,9 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-refile-last-stored"
     (filename . "~/Documents/index.org")
-    (front-context-string . "** Level 2 headl")
-    (rear-context-string . "a level 2 block\n")
-    (position . 77))
+    (front-context-string . "** This one shou")
+    (rear-context-string . "vel 2 headline\n\n")
+    (position . 78))
 ("org-capture-last-stored"
     (filename . "~/.notes")
     (front-context-string)
