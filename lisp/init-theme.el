@@ -1,2 +1,2 @@
-(load-theme 'zenburn t)
+(load-theme 'nordic-night t)
 (provide 'init-theme)
