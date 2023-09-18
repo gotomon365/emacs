@@ -1,5 +1,7 @@
 ;; about the directroy
 (add-to-list 'load-path "~/.emacs.d/lisp/")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+
 (setq backup-directory-alist `(("." . "~/.saves")))
 
 (require 'package)
@@ -40,7 +42,7 @@
  ;; If there is more than one, they won't work right.
  '(org-agenda-files nil)
  '(package-selected-packages
-      '(nordic-night-theme rainbow-delimiters evil-nerd-commenter embark marginalia orderless vertico zenburn-theme use-package evil-visual-mark-mode evil-multiedit)))
+      '(tangonov-theme afternoon-theme nordic-night-theme rainbow-delimiters evil-nerd-commenter embark marginalia orderless vertico zenburn-theme use-package evil-visual-mark-mode evil-multiedit)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

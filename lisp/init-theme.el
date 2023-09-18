@@ -1,2 +1,2 @@
-(load-theme 'nordic-night t)
+(load-theme 'tango t)
 (provide 'init-theme)
