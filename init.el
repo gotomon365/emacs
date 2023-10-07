@@ -34,6 +34,7 @@
 (require 'init-tab)
 (require 'init-python)
 (require 'init-org)
+(require 'init-cpp)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
