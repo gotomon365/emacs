@@ -41,13 +41,13 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(org-agenda-files nil)
+ '(org-agenda-files
+      '("~/Documents/myNote/org/life.org" "/Users/kuei/Documents/myNote/org/lunch.org"))
  '(package-selected-packages
-      '(tangonov-theme afternoon-theme nordic-night-theme rainbow-delimiters evil-nerd-commenter embark marginalia orderless vertico zenburn-theme use-package evil-visual-mark-mode evil-multiedit)))
+      '(zenburn-theme vertico use-package tangonov-theme rainbow-delimiters quickrun orderless nordic-night-theme marginalia load-theme-buffer-local evil-visual-mark-mode evil-nerd-commenter evil-multiedit embark eglot afternoon-theme)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-(put 'downcase-region 'disabled nil)

@@ -3,10 +3,11 @@
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-refile-last-stored"
-    (filename . "~/Documents/index.org")
-    (front-context-string . "** This one shou")
-    (rear-context-string . "vel 2 headline\n\n")
-    (position . 78))
+    (filename . "~/Documents/myNote/org/lunch.org")
+    (front-context-string . "** TODO 老闆沒有寫合計\n")
+    (rear-context-string . "\n*** 魚板\n*** 蟹肉棒\n")
+    (position . 110)
+    (last-modified 25911 29782 594532 0))
 ("org-capture-last-stored"
     (filename . "~/.notes")
     (front-context-string)
