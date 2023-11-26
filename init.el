@@ -27,6 +27,7 @@
     (package-install 'use-package))
 (eval-when-compile (require 'use-package))
 
+(add-hook 'prog-mode-hook 'display-line-number-mode)
 
 (require 'init-evil)
 (require 'init-theme)
@@ -44,7 +45,7 @@
  '(org-agenda-files
       '("~/Documents/myNote/org/life.org" "/Users/kuei/Documents/myNote/org/lunch.org"))
  '(package-selected-packages
-      '(zenburn-theme vertico use-package tangonov-theme rainbow-delimiters quickrun orderless nordic-night-theme marginalia load-theme-buffer-local evil-visual-mark-mode evil-nerd-commenter evil-multiedit embark eglot afternoon-theme)))
+      '(org-side-tree zenburn-theme vertico use-package tangonov-theme rainbow-delimiters quickrun orderless nordic-night-theme marginalia load-theme-buffer-local evil-visual-mark-mode evil-nerd-commenter evil-multiedit embark eglot afternoon-theme)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

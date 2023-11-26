@@ -1,4 +1,4 @@
 (load-theme 'tango t)
-(set-face-attribute 'default nil :height 120)
+(set-face-attribute 'default nil :height 100)
 
 (provide 'init-theme)
