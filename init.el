@@ -27,7 +27,6 @@
     (package-install 'use-package))
 (eval-when-compile (require 'use-package))
 
-(add-hook 'prog-mode-hook 'display-line-number-mode)
 
 (require 'init-evil)
 (require 'init-theme)
