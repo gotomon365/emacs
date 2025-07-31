@@ -28,6 +28,10 @@
 (eval-when-compile (require 'use-package))
 
 
+(load (expand-file-name "~/.quicklisp/slime-helper.el"))
+(setq inferior-lisp-program "sbcl")
+    
+
 (require 'init-evil)
 (require 'init-theme)
 (require 'init-custom)
@@ -42,9 +46,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(org-agenda-files
-      '("~/Documents/myNote/org/life.org" "/Users/kuei/Documents/myNote/org/lunch.org"))
- '(package-selected-packages
-      '(org-side-tree zenburn-theme vertico use-package tangonov-theme rainbow-delimiters quickrun orderless nordic-night-theme marginalia load-theme-buffer-local evil-visual-mark-mode evil-nerd-commenter evil-multiedit embark eglot afternoon-theme)))
+      '("~/Documents/myNote/org/life.org"
+           "/Users/kuei/Documents/myNote/org/lunch.org"))
+ '(package-selected-packages nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
