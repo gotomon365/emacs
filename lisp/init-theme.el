@@ -5,7 +5,7 @@
 ;;
 ;;(enable-theme 'wombat)
 
-(set-face-attribute 'default nil :height 105)
+(set-face-attribute 'default nil :height 110)
 ;; Default dark theme
 (set-background-color "white")
 (set-foreground-color "black")

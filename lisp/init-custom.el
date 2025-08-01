@@ -25,7 +25,7 @@
 
 (setq-default c-basic-offset 4)
 (evil-set-initial-state 'dired-mode 'emacs)
-(setq lisp-indent-offset 4)
+;;(setq lisp-indent-offset 4)
 
 
 

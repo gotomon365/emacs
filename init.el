@@ -30,6 +30,8 @@
 
 (load (expand-file-name "~/.quicklisp/slime-helper.el"))
 (setq inferior-lisp-program "sbcl")
+(require 'slime)
+(slime-setup '(slime-fancy))
     
 
 (require 'init-evil)
@@ -46,8 +48,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(org-agenda-files
-      '("~/Documents/myNote/org/life.org"
-           "/Users/kuei/Documents/myNote/org/lunch.org"))
+   '("~/Documents/myNote/org/life.org"
+     "/Users/kuei/Documents/myNote/org/lunch.org"))
  '(package-selected-packages nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
