@@ -50,7 +50,10 @@
  '(org-agenda-files
    '("~/Documents/myNote/org/life.org"
      "/Users/kuei/Documents/myNote/org/lunch.org"))
- '(package-selected-packages nil))
+ '(package-selected-packages
+   '(cider common-lisp-snippets eglot embark evil-multiedit marginalia
+           orderless paredit quickrun rainbow-mode slime use-package
+           vertico)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

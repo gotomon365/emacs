@@ -7,6 +7,7 @@
 (electric-pair-mode 1)
 (toggle-frame-maximized)
 
+
 ;; ibuffer setting
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 (autoload 'ibuffer "ibuffer" "List buffers." t)
@@ -14,6 +15,7 @@
 ;; set highlighting brackets
 (show-paren-mode 1)
 (setq show-paren-style 'parenthesis)
+(paredit-mode 1)
 
 ;; for isearch-forward, make these equivalent: space newline tab hyphen underscore
 (electric-indent-mode 1)
