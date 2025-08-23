@@ -41,6 +41,7 @@
 (require 'init-python)
 (require 'init-org)
 (require 'init-cpp)
+(require 'init-clojure)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -50,10 +51,7 @@
  '(org-agenda-files
    '("~/Documents/myNote/org/life.org"
      "/Users/kuei/Documents/myNote/org/lunch.org"))
- '(package-selected-packages
-   '(cider common-lisp-snippets eglot embark evil-multiedit marginalia
-           orderless paredit quickrun rainbow-mode slime use-package
-           vertico)))
+ '(package-selected-packages nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
