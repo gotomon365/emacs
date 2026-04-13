@@ -12,13 +12,11 @@
     ("gnu" . "http://elpa.gnu.org/packages/")))
 
 
-
 ;;防止反复调用 package-refresh-contents 会影响加载速度
 (when (not package-archive-contents)
     (package-refresh-contents))
 
 ;;modeline上显示我的所有的按键和执行的命令
-
 
 ;;(package-initialize)
 (setq use-package-always-ensure t)
@@ -28,10 +26,10 @@
 (eval-when-compile (require 'use-package))
 
 
-(load (expand-file-name "~/.quicklisp/slime-helper.el"))
-(setq inferior-lisp-program "sbcl")
-(require 'slime)
-(slime-setup '(slime-fancy))
+;;(load (expand-file-name "~/.quicklisp/slime-helper.el"))
+;;(setq inferior-lisp-program "sbcl")
+;;(require 'slime)
+;;(slime-setup '(slime-fancy))
     
 
 (require 'init-evil)
@@ -41,7 +39,7 @@
 (require 'init-python)
 (require 'init-org)
 (require 'init-cpp)
-(require 'init-clojure)
+(require 'init-asm)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

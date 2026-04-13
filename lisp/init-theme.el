@@ -1,8 +1,8 @@
 ;;(load-theme 'wombat t)
 ;;(custom-theme-set-faces
-;;    'wombat
-;;    '(cursor ((t (:background "#abb2bf")))))
-;;
+;; 'wombat
+;;'(cursor ((t (:background "#abb2bf")))))
+
 ;;(enable-theme 'wombat)
 
 (set-face-attribute 'default nil :height 110)

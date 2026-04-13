@@ -6,6 +6,7 @@
 (blink-cursor-mode 1)
 (electric-pair-mode 1)
 (toggle-frame-maximized)
+(nlinum-mode 1)
 
 
 ;; ibuffer setting
