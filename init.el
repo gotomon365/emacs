@@ -39,7 +39,6 @@
 (require 'init-python)
 (require 'init-org)
 (require 'init-cpp)
-(require 'init-asm)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
