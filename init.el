@@ -1,8 +1,10 @@
 ;; about the directroy
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+(add-to-list 'auto-mode-alist '("\\.[hc]\\(pp\\)?\\'" . simpc-mode))
 
 (setq backup-directory-alist `(("." . "~/.saves")))
+(setq custom-file "~/.emacs.d/.custom.el")
 
 (require 'package)
 (setq package-archives
@@ -25,33 +27,17 @@
     (package-install 'use-package))
 (eval-when-compile (require 'use-package))
 
+;; company mode
+(add-hook 'after-init-hook 'global-company-mode)
 
-;;(load (expand-file-name "~/.quicklisp/slime-helper.el"))
-;;(setq inferior-lisp-program "sbcl")
-;;(require 'slime)
-;;(slime-setup '(slime-fancy))
     
 
 (require 'init-evil)
 (require 'init-theme)
 (require 'init-custom)
 (require 'init-tab)
-(require 'init-python)
 (require 'init-org)
-(require 'init-cpp)
-
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(org-agenda-files
-   '("~/Documents/myNote/org/life.org"
-     "/Users/kuei/Documents/myNote/org/lunch.org"))
- '(package-selected-packages nil))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+(require 'init-company)
+(require 'init-mine)
+(require 'things-evil)
+(require 'simpc-mode)
