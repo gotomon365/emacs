@@ -5,8 +5,10 @@
   (setq company-idle-delay 0) ; Instant suggestion
   (setq company-minimum-prefix-length 2) ; Show after 2 chars
   (setq company-selection-wrap-around t) ; Wrap around
-  (with-eval-after-load 'company
-                        (add-to-list 'company-backends 'company-clang))
   ) 
+
+(add-hook 'simpc-mode-hook 'company-mode)
+;; (add-hook 'perl-mode 'company-mode)
+(setq company-backends '((company-clang company-capf)))
 
 (provide 'init-company)

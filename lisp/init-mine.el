@@ -4,7 +4,8 @@
   (browse-url
    (concat "https://www.google.com/search?client=firefox-b-lm&q=" (thing-at-point 'symbol))))
 
+
 (global-set-key (kbd "C-c f") 'word-def-lookup)
 
-
 (provide 'init-mine)
+

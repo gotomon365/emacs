@@ -41,4 +41,4 @@
 (require 'init-mine)
 (require 'things-evil)
 (require 'simpc-mode)
-
+(require 'init-eglot)
