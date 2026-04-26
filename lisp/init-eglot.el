@@ -13,5 +13,9 @@
 (add-hook 'perl-mode-hook 'eglot-ensure)
 (add-hook 'cperl-mode-hook 'eglot-ensure)
 
+;; for python
+(use-package eglot
+  :hook (python-mode . eglot-ensure))
+
 
 (provide 'init-eglot)

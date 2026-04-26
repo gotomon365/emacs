@@ -1,4 +1,5 @@
 (add-hook 'org-mode-hook 'org-indent-mode)
+(add-hook 'org-mode-hook 'org-bullets-mode)
 (with-eval-after-load 'evil-maps (define-key evil-motion-state-map (kbd "TAB") nil))
 
 
