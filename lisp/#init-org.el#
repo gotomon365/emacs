@@ -1,4 +1,4 @@
-(require 'org-tempo)
+(require 'org-tempo)jj
 
 (add-hook 'org-mode-hook 'org-indent-mode)
 (add-hook 'org-mode-hook 'org-bullets-mode)

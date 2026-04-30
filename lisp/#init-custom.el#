@@ -38,11 +38,12 @@
 (evil-set-initial-state 'dired-mode 'emacs)
 ;;(setq lisp-indent-offset 4)
 
-;; quickrun
-(require 'quickrun)
-(global-set-key (kbd "<f5>") 'quickrun)
-
+(require 'multiple-cursors)
+(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+(global-set-key (kbd "C-c .") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-c ,") 'mc/mark-previous-like-this)
 
 
 
 (provide 'init-custom)
+
