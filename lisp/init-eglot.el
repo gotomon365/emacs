@@ -10,6 +10,7 @@
   (add-to-list 'eglot-server-programs
                '((perl-mode cperl-mode) . ("/home/kuei/dev/misc/perlnavigator" "--stdio"))))
 
+
 (add-hook 'perl-mode-hook 'eglot-ensure)
 (add-hook 'cperl-mode-hook 'eglot-ensure)
 

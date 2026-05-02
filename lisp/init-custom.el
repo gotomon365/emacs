@@ -13,6 +13,7 @@
 (setq inhibit-startup-screen t)
 
 
+
 ;; ibuffer setting
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 (autoload 'ibuffer "ibuffer" "List buffers." t)
