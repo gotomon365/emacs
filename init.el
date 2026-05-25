@@ -8,10 +8,10 @@
 
 (require 'package)
 (setq package-archives
-      '(("melpa" . "https://melpa.org/packages/")
+      '( ("melpa" . "https://melpa.org/packages/")
         ("org" . "https://orgmode.org/elpa/")
-        ("elpa" . "http://elpa.gnu.org/packages/")
-        ("gnu" . "https://elpa.gnu.org/packages/")
+;;        ("elpa" . "http://elpa.gnu.org/packages/")
+;;        ("gnu" . "https://elpa.gnu.org/packages/")
        ))
 
 

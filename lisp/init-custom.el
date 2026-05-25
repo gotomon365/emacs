@@ -9,6 +9,7 @@
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 (menu-bar-mode -1)
+(setq display-line-numbers-type 'relative)
 (global-display-line-numbers-mode)
 (setq inhibit-startup-screen t)
 
