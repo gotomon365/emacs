@@ -10,8 +10,8 @@
 (setq package-archives
       '( ("melpa" . "https://melpa.org/packages/")
         ("org" . "https://orgmode.org/elpa/")
-;;        ("elpa" . "http://elpa.gnu.org/packages/")
-;;        ("gnu" . "https://elpa.gnu.org/packages/")
+        ("elpa" . "http://elpa.gnu.org/packages/")
+        ("gnu" . "https://elpa.gnu.org/packages/")
        ))
 
 
@@ -29,8 +29,9 @@
 (eval-when-compile (require 'use-package))
 
 ;; company mode
-;; (add-hook 'after-init-hook 'global-company-mode)
+(add-hook 'after-init-hook 'global-company-mode)
 
+(setq inferior-lisp-program "sbcl")
 
 
 (require 'init-evil)
