@@ -31,7 +31,7 @@
 ;; company mode
 (add-hook 'after-init-hook 'global-company-mode)
 
-(setq inferior-lisp-program "sbcl")
+;; (setq inferior-lisp-program "sbcl")
 
 
 (require 'init-evil)
