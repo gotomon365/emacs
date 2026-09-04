@@ -31,6 +31,12 @@
 ;; company mode
 (add-hook 'after-init-hook 'global-company-mode)
 
+
+esetq compile-command "make -k") ; optional default command
+(add-hook 'compilation-filter-hook 'ansi-color-compilation-filter)
+
+
+
 ;; (setq inferior-lisp-program "sbcl")
 
 
@@ -44,3 +50,4 @@
 (require 'things-evil)
 (require 'simpc-mode)
 (require 'init-eglot)
+(require 'init-rust)

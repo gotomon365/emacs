@@ -40,11 +40,13 @@
 (evil-set-initial-state 'dired-mode 'emacs)
 ;;(setq lisp-indent-offset 4)
 
-;; quickrun
-(require 'quickrun)
-(global-set-key (kbd "<f5>") 'quickrun)
+
+;; show ansi-color
+(add-hook 'compilation-filter-hook 'ansi-color-compilation-filter)
 
 
-
+(use-package paredit)
+;; (use-package paredit-mode)
+(use-package mmt)
 
 (provide 'init-custom)

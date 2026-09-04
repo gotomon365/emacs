@@ -1,2 +1,2 @@
-cp ~/.emacs.d/init.el ~/emacs/init.el
-cp -r ~/.emacs.d/lisp ~/emacs
+cp ~/.emacs.d/init.el .
+cp -r ~/.emacs.d/lisp .
