@@ -31,8 +31,7 @@
 ;; company mode
 (add-hook 'after-init-hook 'global-company-mode)
 
-
-esetq compile-command "make -k") ; optional default command
+(setq compile-command "make -k") ; optional default command
 (add-hook 'compilation-filter-hook 'ansi-color-compilation-filter)
 
 

@@ -22,7 +22,6 @@
 ;; set highlighting brackets
 (show-paren-mode 1)
 (setq show-paren-style 'parenthesis)
-(paredit-mode t)
 
 ;; for isearch-forward, make these equivalent: space newline tab hyphen underscore
 (electric-indent-mode 1)
